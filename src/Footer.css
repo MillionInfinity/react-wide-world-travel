@@ -11,10 +11,16 @@ a{
 }
 
 .App-footer{
-    background-color:rgb(143, 151, 109);
+    /* background-color:rgb(143, 151, 109); */
     height: 75px;
-    margin-top: -40px;
+    margin-top: -1200px;
+    position: relative;
+    left:150px;
 }
 span.copyr{
-    margin-top:-80px;
+    /* margin-top:-180px; */
+    position: relative;
+    left:150px;
+    top: -50px;
+    color:white;
 }

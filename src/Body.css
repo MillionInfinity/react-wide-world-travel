@@ -1,0 +1,9 @@
+.body-text{
+    color:rgb(204, 127, 127);
+    font-size:50px;
+    position: relative;
+    top:-850px;
+    left:-620px;
+    z-index: 500;
+    
+}
