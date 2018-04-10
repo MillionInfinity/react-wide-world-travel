@@ -1,21 +1,30 @@
-.guideCard{
-    /* display: inline; */
-    margin-left: 50px; 
-    text-decoration: none;
-    z-index: 50;
-}
-li{
-   display: block;
-   
-}
-p{
- z-index: 600;
-} 
 
- .card{
-    height:200px;
-} 
 
-.guide-type{
- padding-top: 55px;
-}
+        p{
+            z-index: 600;
+        } 
+
+        .guide-type{
+            padding-top: 0px;
+        }
+        .container{
+                margin-bottom: 15px;
+                z-index: 50;
+                position: relative;
+                top:-1000px;
+                left:305px;
+                
+        }
+        .float-right {
+            display:inline !important;
+            padding-right: 15px;
+            padding-bottom: 15px;
+          
+         }
+      li{
+          color:rgb(70, 88, 43);
+          display: inline;
+          background-color: rgb(198, 218, 176);
+          
+      }   
+      
