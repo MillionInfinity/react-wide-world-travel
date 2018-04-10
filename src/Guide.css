@@ -1,17 +1,21 @@
 .guideCard{
-    display: inline;
-
+    /* display: inline; */
     margin-left: 50px; 
-    position: relative;
-    top:-1115px;
-    left:550px;
-  
     text-decoration: none;
+    z-index: 50;
 }
 li{
    display: block;
-     
+   
 }
 p{
  z-index: 600;
+} 
+
+ .card{
+    height:200px;
+} 
+
+.guide-type{
+ padding-top: 55px;
 }
