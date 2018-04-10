@@ -8,12 +8,16 @@ import json from './Guide.json';
                     <React.Fragment>
                         {json.guides.map(bGuides => {
                                 return <div className="guideCard">
-                                    <p class="cards">
+                                    <div class="float-right">
+                                     {/* <div class="card">  */}
+                                     <p class="giude-cards"> 
                                     <li className="guide-type">{bGuides.type}</li>
                                     <li className="guide-title">{bGuides.title}</li>
                                     <li className="guide-price">{bGuides.price}</li>
-                                    </p>
-                                </div>
+                                     </p> 
+                                    </div>
+                                    </div>
+                                    {/* </div> */}
                             })}
                     </React.Fragment>
                 )
