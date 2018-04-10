@@ -13,14 +13,14 @@ a{
 .App-footer{
     /* background-color:rgb(143, 151, 109); */
     height: 75px;
-    margin-top: -1200px;
+    margin-top: -1000px;
     position: relative;
-    left:150px;
+    left:0px;
 }
 span.copyr{
     /* margin-top:-180px; */
     position: relative;
-    left:150px;
+    left:0px;
     top: -50px;
     color:white;
 }
