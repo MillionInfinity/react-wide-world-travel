@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import bodyImage from './imgs/1.jpg';
+import bodyImage from './imgs/22.jpg';
 import './Body.css';
 
 class Body extends Component {
@@ -7,7 +7,7 @@ class Body extends Component {
         return (
             <div className="Body">
                 <img src={bodyImage} className="App-bImg" alt="body image"/>
-                <h1 class="body-text">Travel Around the World</h1>
+                {/* <h1 class="body-text">Travel Around the World</h1> */}
             </div>
         );
     }

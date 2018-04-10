@@ -13,9 +13,9 @@ import json from './Guide.json';
                                     <div class="col-md-4 col-sm-6"></div>
                                     <div class="col-md-4 col-sm-6">
                                      <div class="card">
-                                        <li href="" className="guide-type"><a>{bGuides.type}</a></li>
-                                        <li  href="" className="guide-title"><a>{bGuides.title}</a></li>
-                                        <li  href="" className="guide-price"><a>{bGuides.price}</a></li>
+                                        <li id="dg" href="" className="guide-type"><a>{bGuides.type}</a></li>
+                                        <li id="dg" href="" className="guide-title"><a>{bGuides.title}</a></li>
+                                        <li id="dg" href="" className="guide-price"><a>{bGuides.price}</a></li>
                                    </div>
                                     </div>
                                     </div>

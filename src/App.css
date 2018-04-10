@@ -21,8 +21,10 @@
   background-color: #222;
   height: 85px;
   padding: 20px;
-  color: rgb(104, 117, 66);
-  background-color:rgb(170, 177, 140);
+  color:white;
+  background-color:#379df1;
+  box-shadow: 5px 10px 18px #0a6583;
+  border-bottom:2px solid rgb(255, 253, 253);
 }
 
 .App-title {

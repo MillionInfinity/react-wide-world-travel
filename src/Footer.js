@@ -12,9 +12,9 @@ class Footer extends Component {
                         <li><a href="" target="_black">Atlanta</a></li>
                         <li><a href="" target="_black">Nashville</a></li>
                         <li><a href="" target="_black">Seattle</a></li>
-                 </ul>
+                  </ul>
                      <span class="copyr">&copy;2018 MillionTravels.</span>
-          
+              
             </div>
         );
     }

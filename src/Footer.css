@@ -1,26 +1,36 @@
 .App-footer li{
     display:inline;
-   
+    color:#379df1;
+    
     
 }
 
-a{
+.App-footer a {
     margin-right: 25px;
-    text-decoration: none;
-    color: aliceblue;
+    color: #062b49;
+    font-weight: 900;
+ }
+ .App-footer a:hover {
+    text-decoration:none;
+    color:#084577;
+    font-size: 30px;
 }
-
 .App-footer{
-    /* background-color:rgb(143, 151, 109); */
+    /* background-color:white; */
     height: 75px;
-    margin-top: -1200px;
+    margin-top: -940px;
     position: relative;
-    left:150px;
+    left:0px;
+    font-size: 20px;
+    
 }
 span.copyr{
     /* margin-top:-180px; */
     position: relative;
-    left:150px;
-    top: -50px;
-    color:white;
+    left:0px;
+    top:-50px;
+    color:#379df1;
+    font-weight: 600;
+    font-size: 20px;
 }
+

@@ -11,7 +11,7 @@
                 margin-bottom: 15px;
                 z-index: 50;
                 position: relative;
-                top:-1000px;
+                top:-890px;
                 left:305px;
                 
         }
@@ -19,12 +19,19 @@
             display:inline !important;
             padding-right: 15px;
             padding-bottom: 15px;
-          
+         
          }
-      li{
-          color:rgb(70, 88, 43);
+      #dg{
+          color:rgb(253, 255, 250);
           display: inline;
-          background-color: rgb(198, 218, 176);
-          
-      }   
-      
+          background-color:#0392c2;
+
+       }   
+       .card:hover{
+          font-size: 30px;
+         box-shadow: 5px 10px 18px #0a6583;
+       }
+     .col-sm-6{
+
+ border-radius: 5px;
+     }
