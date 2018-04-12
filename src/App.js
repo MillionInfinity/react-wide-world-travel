@@ -6,7 +6,7 @@ import Footer from './Footer';
 import Guides from './Guides';
 import {Button} from 'reactstrap';
 import Weather from './Weather';
-import Form from './Form';
+
 // const Api = 'http://api.openweathermap.org/data/2.5/weather?q=';
 
 class App extends Component {
@@ -16,7 +16,7 @@ class App extends Component {
       <div className="App">
          <Header/>
           <Body/>
-           {/* <Form/> */}
+          
           {/* <Weather/> */}
 <div className = "weather-display" > <Weather/> </div> 
            <Guides />

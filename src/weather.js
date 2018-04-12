@@ -20,12 +20,11 @@ this.handleChange = this.handleChange.bind(this);
 this.handleSubmit = this.handleSubmit.bind(this);
 }
 handleChange(event){
-    // console.log(event.targt.value);
     this.setState({value: event.target.value});
 }
 
 handleSubmit(event) {
-//     event.preventDefault();
+    event.preventDefault();
     this.getWeather();
 // }
 // componentDidMount() {
@@ -39,31 +38,32 @@ handleSubmit(event) {
                     .then(
                         (result) => {
 //                         console.log("get weather result: ", result);
-                        this.setState({weatherLoaded: true, temperature: result.main.temp, city: result.name, value: ''});
+this.setState({weatherLoaded: true, temperature: result.main.temp, city: result.name, image: result.weather.description, value: ''});
 //                         console.log(result.name);
                     }, (error) => {
                         console.log('get weather error: ', error);
                     }
                     );
 //                 },
-//                 (error) => {
-//                 console.log('get weather error: ', error);
+                (error) => {
+                console.log('get weather error: ', error);
             }
-// }
+}
 // }
 render() {
-    return (<div>
+    return (<div className="weather">
               <h2>Current Weather</h2> 
           <form className="form" onSubmit={this.handleSubmit}>
-            {/* <h3>Input zip code:</h3> */}
-             <input className="weather-input" value={this.state.value}onChange={this.handleChange} type="text" placeholder=" Zip Code"></input>
-             <button className="submit-btn btn" type="submit">Submit</button>
+            <input className="weather-input" value={this.state.value}onChange={this.handleChange} type="text" placeholder="Insert your Zip-Code"></input>
+             <button className="submit-btn btn" type="submit">Submit</button> 
+              
         </form>
-
          <div className="temp-render">
              <div>
                  <h3>{this.state.city}</h3>
                 <h3>{this.state.temperature}</h3>
+                  <h3>{this.state.image}</h3>
+                <img src=""/>
             </div>
          </div> 
     </div>
