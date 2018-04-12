@@ -8,10 +8,10 @@ class Form extends Component {
 
     render() {
         return (
-          <form class="input-group" onSubmit={this.props.getWeather}>
-                <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1"/>
-                 <button class="btn btn-primary">Submit</button>
-           </form>
+          {/* <form className="input-group" onSubmit={this.props.getWeather}>
+                <input type="text" className="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1"/>
+                 <button className="btn btn-primary">Submit</button>
+           </form> */}
         );
     }
 }
